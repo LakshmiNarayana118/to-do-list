@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.react-confirm-alert-overlay{
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(8px); /* Adjust the blur intensity as needed */
+  -webkit-backdrop-filter: blur(8px);
+}
+.react-confirm-alert-overlay h1{
+  color:red;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 24px;
+}
